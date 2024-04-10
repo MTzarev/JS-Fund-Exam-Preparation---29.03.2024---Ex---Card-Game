@@ -12,7 +12,6 @@ function cardGame (input) {
                     players[player].push(el);
                 }
              }
- 
         } else {
             
             for (el of line.split(': ')[1].split(', ')) {
